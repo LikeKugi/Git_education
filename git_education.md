@@ -1,9 +1,9 @@
 # Мое руководство по работе с git
 ## Global settings
-- git version - Посмотреть версию Git
-- git config --global user.name "*username*" - Имя пользователя для всех git на рабочей станции
-- git config --global user.email "*user@email*" - E-mail пользователя
-- git config --list - посмотреть файл конфига
+- **git version** - Посмотреть версию Git
+- **git config --global user.name "*username*"** - Имя пользователя для всех git на рабочей станции
+- **git config --global user.email "*user@email*"** - E-mail пользователя
+- **git config --list** - посмотреть файл конфига
 ## Init repo
 - **git init** служит для инициализации репозитория
 - **git add <mask_name>** служит для индексации файлов/папок  
