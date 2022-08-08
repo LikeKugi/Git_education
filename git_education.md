@@ -21,3 +21,5 @@ ___
 ___
 - **git branch** - вывести все ветки в репозитории, указывает на текущую
 - **git merge<_branchName_>** - влить <_branchName_> в текущую
+- **git branch <_branchName_>** - создать ветку *branchName*
+
