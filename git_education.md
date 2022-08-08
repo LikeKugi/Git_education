@@ -1,5 +1,7 @@
 # Мое руководство по работе с git
-основные команды гита
+работа с гит
+![git workflow](images/Git-flow.jpg)
+основные команды гита 
 ## Global settings
 ___
 - **git version** - Посмотреть версию Git
