@@ -1,10 +1,12 @@
 # Мое руководство по работе с git
 ## Global settings
+___
 - **git version** - Посмотреть версию Git
 - **git config --global user.name "*username*"** - Имя пользователя для всех git на рабочей станции
 - **git config --global user.email "*user@email*"** - E-mail пользователя
 - **git config --list** - посмотреть файл конфига
 ## Init repo
+___
 - **git init** служит для инициализации репозитория
 - **git add <mask_name>** служит для индексации файлов/папок  
 - **git status** служит для просмотра статуса индексированных/неиндексированных файлов в репозитории
@@ -15,3 +17,4 @@
 - **git checkout <*commit_name*>** перейти к конкретному коммиту
 - **git checkout master** - вернуться в ветку *master* на актуальную версию коммита
 - **git diff** сравнить изменения
+___
