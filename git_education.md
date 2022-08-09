@@ -18,6 +18,15 @@ ___
 - **git status** служит для просмотра статуса индексированных/неиндексированных файлов в репозитории
 - **git commit -m "commit_message"** служит для фиксации изменений в репозитории
 - **git commit -a -m "commit_message"** если лень делать git add, а зафиксировать изменения надо в *проиндексированных файлах*
+- **git commit -a** коммит проиндексированных файлов  
+
+последовательность добавления коммита:
+<pre>
+1. <kbd>Shift</kbd> + <kbd>I</kbd> Commit_message
+2. <kbd>Esc</kbd>
+3. <kbd>Shift</kbd> + <kbd>;</kbd>
+4. <kbd>w</kbd><kbd>q</kbd> ===> <kbd>Enter</kbd>
+</pre>
 - **git checkout <*commit_name*>** перейти к конкретному коммиту
 - **git checkout master** - вернуться в ветку *master* на актуальную версию коммита
 - **git diff** сравнить изменения
