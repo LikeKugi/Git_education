@@ -1,14 +1,16 @@
-# Мое руководство по работе с git
-работа с гит
-![git workflow](images/Git-flow.jpg)
-основные команды гита 
-## Global settings
+# <p align = center> Мое руководство по работе с git </p>
+  
+![git workflow](images/Git-flow.jpg)  
+<p align = center>работа с гит</p> 
+
+## Осовные команды гита 
+### Global settings
 ___
 - **git version** - Посмотреть версию Git
 - **git config --global user.name "*username*"** - Имя пользователя для всех git на рабочей станции
 - **git config --global user.email "*user@email*"** - E-mail пользователя
 - **git config --list** - посмотреть файл конфига
-## Init repo
+### Init repo
 ___
 - **git init** служит для инициализации репозитория
 - **git add <mask_name>** служит для индексации файлов/папок  
@@ -22,7 +24,7 @@ ___
 - **git branch** - вывести все ветки в репозитории, указывает на текущую
 - **git merge<_branchName_>** - влить <_branchName_> в текущую
 - **git branch <_branchName_>** - создать ветку *branchName*
-## Просмотр ветокб коммитов и изменений
+## Просмотр веток коммитов и изменений
 - **git log** служит для просмотра подробного журнала изменений. *Q* - выход из журнала
 - **git log --pretty=oneline** посмотреть изменения в удобном формате в одну строчку один коммит
 - **git log --pretty-short** краткий формат фиксаций
