@@ -43,3 +43,11 @@
 | ------: | ------------------------------------- |
 |       ! | Привлечь внимание к изменению         |
 | (scope) | Привлечь внимание к изменению (scope) |
+
+## Добавить текущую дату и время в сообщение коммита
+
+```
+git commit -m "$(Get-Date)"
+```
+
+[_На stackoverflow_](https://stackoverflow.com/questions/4654437/how-to-set-current-date-as-git-commit-message)
